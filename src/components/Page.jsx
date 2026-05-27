@@ -20,6 +20,11 @@ import {
 import { SiPhp } from "react-icons/si";
 import { FaJava, FaCss3Alt } from "react-icons/fa";
 import handImg from "../assets/hand.png";
+import pallaviImg from "../assets/pallavi.jpg";
+import pdf from "../assets/PALLAVI PATIL.pdf";
+import psdImg from "../assets/psd-img.png";
+import textifyImg from "../assets/textify.jpg";
+
 
 export class Page extends Component {
 
@@ -85,7 +90,7 @@ export class Page extends Component {
                   user-friendly digital experiences.
                 </p>
 
-                <a href="src/assets/PALLAVI PATIL.pdf" data-aos="fade-right" data-aos-duration="1500" download className="btn text-white mt-2">Download Resume <span>→</span></a>
+                <a href={pdf} data-aos="fade-right" data-aos-duration="1500" download className="btn text-white mt-2">Download Resume <span>→</span></a>
                 <div className="social-icon mt-5" data-aos="fade-right" data-aos-duration="1500">
                     <a href="https://www.linkedin.com/in/pallavi-sunil-patil" target="_blank" className="me-2"><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/Pallavi-Sunil-Patil" target="_blank" className="me-2"><i className="bi bi-github"></i> </a>
@@ -96,7 +101,7 @@ export class Page extends Component {
               <div className="col-12 col-md-6 col-sm-12">
                 <img data-aos="fade-In" data-aos-duration="1500"
                   className="pallavi"
-                  src="src/assets/pallavi.jpg"
+                  src={pallaviImg}
                   alt="Pallavi"
                 />
               </div>
@@ -289,7 +294,7 @@ export class Page extends Component {
                         <h3>Development Tools</h3>
                           <div className="d-flex gap-3 pt-3">
                             <span><SiGithub size={40} color="#181717" /><br/> Github</span>
-                            <span><img src="src/assets/psd-img.png"/><br/> Adobe Photoshop</span>
+                            <span><img src={psdImg} /><br/> Adobe Photoshop</span>
                             <span><SiCanva size={40} color=" #00C4CC" /> <br/>Canva</span>
                           </div>
                         </div>
@@ -310,7 +315,7 @@ export class Page extends Component {
                    <div className="col-12 col-md-4 col-sm-12">
                        <div className="project-details">
                            <div>
-                              <img src="src/assets/textify.jpg"/>
+                              <img src={textifyImg}/>
                            </div>
                            <div className="d-flex justify-content-between align-items-center pt-4">
                                <h3>Textify</h3>
