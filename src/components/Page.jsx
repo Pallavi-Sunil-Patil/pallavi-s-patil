@@ -19,7 +19,7 @@ import {
 
 import { SiPhp } from "react-icons/si";
 import { FaJava, FaCss3Alt } from "react-icons/fa";
-
+import handImg from "../assets/hand.png";
 
 export class Page extends Component {
 
@@ -75,7 +75,7 @@ export class Page extends Component {
                 <div className="hero-sub" data-aos="fade-right" data-aos-duration="1500">Front-End Developer</div>
 
                 <h1 className="text-white" data-aos="fade-right" data-aos-duration="1500">
-                  Hey <span><img src="src/assets/hand.png" alt="hand" /></span>
+                  Hey <span><img src={handImg} alt="hand" /></span>
                   {" "}I'm Pallavi Patil
                 </h1>
 
