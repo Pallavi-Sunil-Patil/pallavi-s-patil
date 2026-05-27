@@ -497,14 +497,7 @@ h2{
 }
 .fixed-icon {
     position: fixed;
-    bottom: 10%;
-    right: 24px;
+    bottom: 30%;
+    right: 5px;
     z-index: 9999;
-}
-
-@media (max-width:991px) {  
-.fixed-icon {
-    bottom: 2%;
-}
-
 }
