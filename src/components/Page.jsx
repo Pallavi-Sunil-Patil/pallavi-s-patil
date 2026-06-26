@@ -96,7 +96,7 @@ export class Page extends Component {
               <div className="col-12 col-md-6 col-sm-12">
                 <img data-aos="fade-In" data-aos-duration="1500"
                   className="pallavi"
-                  src="/pallavi.jpg"
+                  src="/pallavi.png"
                   alt="Pallavi"
                 />
               </div>

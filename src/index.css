@@ -134,8 +134,8 @@ a.btn {
 }
 .hero img.pallavi {
     width: 70%;
-    height: 400px;
-    object-fit: contain;
+    height: 440px;
+    object-fit: cover;
     border-radius: 10px;
     margin-left: 162px;
     background: rgba(255, 255, 255, 0.06);
