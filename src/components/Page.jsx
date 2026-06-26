@@ -85,7 +85,7 @@ export class Page extends Component {
                   user-friendly digital experiences.
                 </p>
 
-                <a href="src/assets/PALLAVI PATIL.pdf" data-aos="fade-right" data-aos-duration="1500" download className="btn text-white mt-2">Download Resume <span>→</span></a>
+                <a href="src/assets/PALLAVI SUNIL PATIL.pdf" data-aos="fade-right" data-aos-duration="1500" download className="btn text-white mt-2">Download Resume <span>→</span></a>
                 <div className="social-icon mt-5" data-aos="fade-right" data-aos-duration="1500">
                     <a href="https://www.linkedin.com/in/pallavi-sunil-patil" target="_blank" className="me-2"><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/Pallavi-Sunil-Patil" target="_blank" className="me-2"><i className="bi bi-github"></i> </a>
